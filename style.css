@@ -1,0 +1,99 @@
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-header {
+    outline: 1px solid green;
+}
+
+.container {
+    outline: 1px solid crimson;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.index-logo {
+    width: 161px;
+    height: 65px;
+    float: left;
+}
+
+.main-navigator {
+    outline: 1px solid yellow;
+    min-height: 50px;
+    width: 560px;
+    float: left;
+}
+
+.user-block {
+    outline: 1px solid yellow;
+    min-height: 50px;
+    width: 180px;
+    float: right;
+}
+
+.main-slider {
+    outline: 1px solid yellow;
+    min-height: 430px;
+}
+
+.features {
+    outline: 1px solid yellow;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #282828;
+}
+
+.features-item {
+    outline: 1px solid blue;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    min-height: 430px;
+    margin-right: 100px;
+}
+
+.features-item:last-child {
+    margin-right: 0px;
+}
+
+.presentation {
+    outline: 1px solid yellow;
+
+    border-bottom: 1px solid #282828;
+}
+
+.presentation-text {
+    outline: 1px solid blue;
+    float: left;
+    width: 660px;
+    min-height: 485px;
+}
+
+.presentation-infograph {
+    outline: 1px solid blue;
+    float: right;
+    width: 360px;
+    min-height: 485px;
+}
+
+.partners {
+    outline: 1px solid yellow;
+    border-bottom: 1px solid #282828;
+}
+
+.partners-img {
+    outline: 1px solid blue;
+    display: inline-block;
+    vertical-align: top;
+    width: 260px;
+    height: 180px;
+    margin-right: 40px;
+}
+
+.partners-img:last-child {
+    margin-right: 0px;
+}
